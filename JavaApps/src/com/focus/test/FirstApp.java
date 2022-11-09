@@ -11,7 +11,10 @@ public class FirstApp {
 		String name = "sachin";
 		int count = name.toUpperCase().length();
 		System.out.println("The length of the String is:"+count);
-		System.out.println("Hello");
+		
+		StringBuffer sb = new StringBuffer("viratkohli");
+		int length = sb.append("INDRCB").reverse().length();
+		System.out.println(length);
 	}
 
 }
